@@ -45,7 +45,9 @@
             class="w-[541px] flex-1 h-[291px] rounded-3xl bg-cover bg-center bg-[url('https://i.pinimg.com/736x/42/b6/8c/42b68cd2490f7a0467234a71b4d4d6fb.jpg')]"
           ></div>
           <!--  -->
-          <div class="grid grid-cols-2 gap-3 flex-1">
+          <div
+            class="grid grid-cols-2 grid-rows-2 flex-1 border-2 justify-center items-center"
+          >
             <div
               class="w-[359px] rounded-2xl h-[128px] bg-cover bg-center bg-[url('https://i.pinimg.com/736x/6b/61/9b/6b619b18f89bcdceec7e223c28e99f8e.jpg')]"
             ></div>
@@ -240,13 +242,83 @@
     </section>
     <!-- end -->
 
-    <section class="bg-gray-300 px-10">
-      <div>
+    <section class="bg-gray-200 px-10">
+      <div class="p-2">
         <h1>Rooms</h1>
         <!--  -->
         <div>
-          <div class="border-2 w-[324px] h-[334px]">
-            <div class="bg-[url('')]"></div>
+          <div class="w-[324px] h-[334px] rounded-2xl shadow-lg">
+            <div class="flex justify-center p-2 rounded-2xl">
+              <div
+                class="bg-cover w-[100%] h-[150px] bg-center rounded-2xl bg-[url('https://i.pinimg.com/736x/a1/56/1b/a1561bc56c80723d92e9c47feb851352.jpg')]"
+              ></div>
+            </div>
+
+            <div>
+              <h1>Double standard room</h1>
+              <ul>
+                <li class="flex gap-2 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-frame"
+                  >
+                    <line x1="22" x2="2" y1="6" y2="6" />
+                    <line x1="22" x2="2" y1="18" y2="18" />
+                    <line x1="6" x2="6" y1="2" y2="22" />
+                    <line x1="18" x2="18" y1="2" y2="22" />
+                  </svg>
+                  18 sqm
+                </li>
+                <li class="flex gap-2 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-users"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                  2 people
+                </li>
+                <li class="flex gap-2 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-bed"
+                  >
+                    <path d="M2 4v16" />
+                    <path d="M2 8h18a2 2 0 0 1 2 2v10" />
+                    <path d="M2 17h20" />
+                    <path d="M6 8v9" />
+                  </svg>
+                  1 queen bed or 2 separate beds
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
