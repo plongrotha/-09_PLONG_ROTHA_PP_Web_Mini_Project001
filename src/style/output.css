@@ -549,6 +549,9 @@
   .mx-20 {
     margin-inline: calc(var(--spacing) * 20);
   }
+  .-mt-1 {
+    margin-top: calc(var(--spacing) * -1);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -615,6 +618,9 @@
   .h-\[40px\] {
     height: 40px;
   }
+  .h-\[50px\] {
+    height: 50px;
+  }
   .h-\[70px\] {
     height: 70px;
   }
@@ -636,9 +642,6 @@
   .h-\[190px\] {
     height: 190px;
   }
-  .h-\[200\] {
-    height: 200;
-  }
   .h-\[291px\] {
     height: 291px;
   }
@@ -654,9 +657,6 @@
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
-  .w-\[20\%\] {
-    width: 20%;
-  }
   .w-\[40\%\] {
     width: 40%;
   }
@@ -669,6 +669,9 @@
   .w-\[70px\] {
     width: 70px;
   }
+  .w-\[80px\] {
+    width: 80px;
+  }
   .w-\[85\%\] {
     width: 85%;
   }
@@ -680,6 +683,9 @@
   }
   .w-\[233px\] {
     width: 233px;
+  }
+  .w-\[240px\] {
+    width: 240px;
   }
   .w-\[250px\] {
     width: 250px;
@@ -704,12 +710,6 @@
   }
   .w-\[541px\] {
     width: 541px;
-  }
-  .w-\[750px\] {
-    width: 750px;
-  }
-  .w-\[800px\] {
-    width: 800px;
   }
   .w-full {
     width: 100%;
@@ -759,6 +759,9 @@
   .items-end {
     align-items: flex-end;
   }
+  .items-start {
+    align-items: flex-start;
+  }
   .justify-around {
     justify-content: space-around;
   }
@@ -767,6 +770,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -928,6 +934,9 @@
   .bg-\[url\(\'https\:\/\/i\.pinimg\.com\/736x\/b6\/aa\/91\/b6aa915a8af1139561f0b9ec24a2e5af\.jpg\'\)\] {
     background-image: url('https://i.pinimg.com/736x/b6/aa/91/b6aa915a8af1139561f0b9ec24a2e5af.jpg');
   }
+  .bg-\[url\(\'https\:\/\/i\.pinimg\.com\/736x\/b8\/e3\/d7\/b8e3d7302458326bded89bfcbf5247c9\.jpg\'\)\] {
+    background-image: url('https://i.pinimg.com/736x/b8/e3/d7/b8e3d7302458326bded89bfcbf5247c9.jpg');
+  }
   .bg-\[url\(\'https\:\/\/i\.pinimg\.com\/736x\/d4\/4c\/ae\/d44caee1f4929a78aaa6cf42d2075e00\.jpg\'\)\] {
     background-image: url('https://i.pinimg.com/736x/d4/4c/ae/d44caee1f4929a78aaa6cf42d2075e00.jpg');
   }
@@ -963,6 +972,12 @@
   }
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
@@ -1004,8 +1019,8 @@
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
   }
-  .text-\[6px\] {
-    font-size: 6px;
+  .text-\[10px\] {
+    font-size: 10px;
   }
   .text-\[12px\] {
     font-size: 12px;
